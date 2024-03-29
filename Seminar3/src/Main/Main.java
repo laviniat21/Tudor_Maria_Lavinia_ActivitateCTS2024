@@ -12,9 +12,9 @@ public class Main {
         conexiuneBazaDeDate1.setLinkConexiune("linkNou");
         System.out.println(conexiuneBazaDeDate1.getLinkConexiune());
 
-        conexiuneBazaDeDate1.setNumeBaza("unAltNume");
+        conexiuneBazaDeDate2.setNumeBaza("unAltNume");
         System.out.println(conexiuneBazaDeDate1.getNumeBaza());
-        conexiuneBazaDeDate1.setNrTabele(56);
+        conexiuneBazaDeDate2.setNrTabele(56);
         conexiuneBazaDeDate1.getNrTabele();
         System.out.println(conexiuneBazaDeDate1);
 

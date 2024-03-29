@@ -13,21 +13,17 @@ public class Pacient {
         this.halatInterior = halatInterior;
     }
 
-
     void setPatRabatabil(boolean patRabatabil) {
         this.patRabatabil = patRabatabil;
     }
-
 
     void setMicDejunInclus(boolean micDejunInclus) {
         this.micDejunInclus = micDejunInclus;
     }
 
-
     void setPapuciCamera(boolean papuciCamera) {
         this.papuciCamera = papuciCamera;
     }
-
 
     void setHalatInterior(boolean halatInterior) {
         this.halatInterior = halatInterior;
