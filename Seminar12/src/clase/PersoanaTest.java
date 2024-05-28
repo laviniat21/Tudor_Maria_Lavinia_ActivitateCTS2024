@@ -81,4 +81,24 @@ public class PersoanaTest {
         assertTrue(persoana1.getSex().compareTo(persoana2.getSex())>0);
     }
 
+    @org.junit.Test()
+    public void getSexRange() {
+        Persoana persoana = new Persoana("Elena", "8001485174957");
+        assertEquals(persoana.getSex(), "F");
+
+    }
+
+    @org.junit.Test(expected = NullPointerException.class)
+    public void getSexExistance() {
+        Persoana persoana = new Persoana("Elena", null);
+        persoana.getSex();
+
+    }
+
+    @org.junit.Test(expected = IllegalArgumentException.class)
+    public void getSexCardinallity() {
+        Persoana persoana = new Persoana("Elena", "0000000000000");
+        persoana.getSex();
+
+    }
 }
